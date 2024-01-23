@@ -39,7 +39,7 @@ public class PesquisaView extends javax.swing.JFrame {
 
         jLabel1.setText("Nome:");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(20, 20, 30, 15);
+        jLabel1.setBounds(20, 30, 30, 15);
 
         txtPesquisaNome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,15 +47,15 @@ public class PesquisaView extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtPesquisaNome);
-        txtPesquisaNome.setBounds(60, 20, 180, 19);
+        txtPesquisaNome.setBounds(60, 30, 210, 19);
 
         btnLimparPesquisa.setText("Limpar");
         getContentPane().add(btnLimparPesquisa);
-        btnLimparPesquisa.setBounds(380, 20, 73, 25);
+        btnLimparPesquisa.setBounds(390, 30, 73, 25);
 
         btnPesquisar.setText("Pesquisar");
         getContentPane().add(btnPesquisar);
-        btnPesquisar.setBounds(280, 20, 82, 25);
+        btnPesquisar.setBounds(290, 30, 82, 25);
 
         tablePesquisa.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -71,7 +71,7 @@ public class PesquisaView extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tablePesquisa);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(20, 70, 740, 450);
+        jScrollPane1.setBounds(20, 90, 740, 450);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
